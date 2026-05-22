@@ -4,5 +4,5 @@ IsoscelesTriangle::IsoscelesTriangle(double side_a, double side_b, double angle_
 	: Triangle(side_a, side_b, side_a, angle_A, angle_B, angle_A) {}
 
 string IsoscelesTriangle::get_name() const {
-	return "Равнобедренный треугольник";
+	return "Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }
