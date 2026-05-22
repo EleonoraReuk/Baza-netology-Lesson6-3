@@ -13,19 +13,19 @@ void print(const Figure* figure) {
 	cout << figure->get_name() << ":\n";
 
 	if (const Triangle* triangle = dynamic_cast<const Triangle*>(figure)) {
-		cout << "Ñòîğîíû: a=" << triangle->get_a()
+		cout << "Ğ¡Ñ‚Ğ¾Ñ€Ğ¾Ğ½Ñ‹: a=" << triangle->get_a()
 			<< " b=" << triangle->get_b()
 			<< " c=" << triangle->get_c() << endl;
-		cout << "Óãëû: A=" << triangle->get_A()
+		cout << "Ğ£Ğ³Ğ»Ñ‹: A=" << triangle->get_A()
 			<< " B=" << triangle->get_B()
 			<< " C=" << triangle->get_C() << endl;
 	}
 	else if (const Quadrilateral* quad = dynamic_cast<const Quadrilateral*>(figure)) {
-		cout << "Ñòîğîíû: a=" << quad->get_a()
+		cout << "Ğ¡Ñ‚Ğ¾Ñ€Ğ¾Ğ½Ñ‹: a=" << quad->get_a()
 			<< " b=" << quad->get_b()
 			<< " c=" << quad->get_c()
 			<< " d=" << quad->get_d() << endl;
-		cout << "Óãëû: A=" << quad->get_A()
+		cout << "Ğ£Ğ³Ğ»Ñ‹: A=" << quad->get_A()
 			<< " B=" << quad->get_B()
 			<< " C=" << quad->get_C()
 			<< " D=" << quad->get_D() << endl;
