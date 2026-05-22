@@ -4,5 +4,5 @@ RightTriangle::RightTriangle(double side_a, double side_b, double side_c, double
 	: Triangle(side_a, side_b, side_c, angle_A, angle_B, 90) {}
 
 string RightTriangle::get_name() const {
-	return "Прямоугольный треугольник";
+	return "РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }
