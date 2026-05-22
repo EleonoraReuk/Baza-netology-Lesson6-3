@@ -3,4 +3,4 @@
 Square::Square(double side)
 	: Rectangle(side, side) {}
 
-string Square::get_name() const { return "Êâàäğàò"; }
+string Square::get_name() const { return "ĞšĞ²Ğ°Ğ´Ñ€Ğ°Ñ‚"; }
