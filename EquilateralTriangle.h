@@ -1,0 +1,13 @@
+#ifndef EQUILATERALTRIANGLE_H
+#define EQUILATERALTRIANGLE_H
+
+#include "Triangle.h"
+
+class EquilateralTriangle :public Triangle {
+public:
+	EquilateralTriangle(double side);
+
+	string get_name() const override;
+};
+
+#endif
