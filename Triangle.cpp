@@ -11,4 +11,4 @@ double Triangle::get_A() const { return A; }
 double Triangle::get_B() const { return B; }
 double Triangle::get_C() const { return C; }
 
-string Triangle::get_name() const { return "Треугольник"; }
+string Triangle::get_name() const { return "РўСЂРµСѓРіРѕР»СЊРЅРёРє"; }
