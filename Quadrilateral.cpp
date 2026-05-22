@@ -14,4 +14,4 @@ double Quadrilateral::get_B() const { return B; }
 double Quadrilateral::get_C() const { return C; }
 double Quadrilateral::get_D() const { return D; }
 
-string Quadrilateral::get_name() const { return "Четырехугольник"; }
+string Quadrilateral::get_name() const { return "Р§РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРє"; }
